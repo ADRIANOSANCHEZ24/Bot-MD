@@ -471,14 +471,14 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
 ⠇ ${lenguajeGB['smsTex13']()} 💫
-∘ _${usedPrefix}cuentasgatabot | cuentasgb_
+∘ _${usedPrefix}cuentasmakanakybot | cuentasgb_
 ∘ _${usedPrefix}gruposgb | grupos | groupgb_
 ∘ _${usedPrefix}donar | donate_
 ∘ _${usedPrefix}listagrupos | grouplist_
-∘ _${usedPrefix}estado | heygata | status_
-∘ _${usedPrefix}infogata | infobot_
+∘ _${usedPrefix}estado | heymakanaky | status_
+∘ _${usedPrefix}infomakanaky | infobot_
 ∘ _${usedPrefix}instalarbot | installbot_
-∘ _${usedPrefix}creadora | owner_
+∘ _${usedPrefix}creador | owner_
 ∘ _${usedPrefix}velocidad | ping_
 ∘ _${usedPrefix}serbot | jadibot_
 ∘ _${usedPrefix}bots | listjadibots_
@@ -570,7 +570,7 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}unete *enlace*_
 ∘ _${usedPrefix}dardiamantes *cantidad*_
 ∘ _${usedPrefix}darxp *cantidad*_
-∘ _${usedPrefix}dargatacoins *cantidad*_
+∘ _${usedPrefix}darmakanakycoins *cantidad*_
 ∘ _${usedPrefix}addprem | userpremium *@tag* *cantidad*_
 ∘ _${usedPrefix}addprem2 | userpremium2 *@tag* *cantidad*_
 ∘ _${usedPrefix}addprem3 | userpremium3 *@tag* *cantidad*_
@@ -584,7 +584,7 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}comunicargrupos *texto*_
 ∘ _${usedPrefix}borrartmp | cleartmp_
 ∘ _${usedPrefix}delexp *@tag*_
-∘ _${usedPrefix}delgatacoins *@tag*_
+∘ _${usedPrefix}delmakanakycoins *@tag*_
 ∘ _${usedPrefix}deldiamantes *@tag*_
 ∘ _${usedPrefix}reiniciar | restart_
 ∘ _${usedPrefix}ctualizar | update_
@@ -593,7 +593,7 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}listapremium | listprem_
 ∘ _${usedPrefix}añadirdiamantes *@tag cantidad*_
 ∘ _${usedPrefix}añadirxp *@tag cantidad*_
-∘ _${usedPrefix}añadirgatacoins *@tag cantidad*_
+∘ _${usedPrefix}añadirmakanakycoins *@tag cantidad*_
 `.trim()
 await conn.sendButtonVid(m.chat, pp, menuA, menuB, lenguajeGB.smsBotonM1(), '.menu', lenguajeGB.smsBotonM2(), '/allmenu', lenguajeGB.smsBotonM3(), '#inventario', fkontak, adReply)
 
@@ -708,7 +708,7 @@ let menuB = `╭┄〔 *${wm}* 〕┄⊱
 ∘ _${usedPrefix}myns_
 ∘ _${usedPrefix}unreg *numero de serie*_
 ∘ _${usedPrefix}minardiamantes | minargemas_
-∘ _${usedPrefix}minargatacoins | minarcoins_
+∘ _${usedPrefix}minarmakanakycoins | minarcoins_
 ∘ _${usedPrefix}minarexperiencia | minarexp_
 ∘ _${usedPrefix}minar *:* minar2 *:* minar3_
 ∘ _${usedPrefix}reclamar | regalo | claim_
