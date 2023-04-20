@@ -10,7 +10,7 @@ let name = await conn.getName(m.sender)
 
 //------- Nombre
   let nowner = `${wm.split`@`[0]}@s.whatsapp.net`
-  let insta = `https://www.instagram.com/gata_dios`
+  let insta = `https://www.instagram.com/adri2.pc`
   let teksnomor = `
 • @${wm.split`@`[0]} •
 ------- ${wm} -------
@@ -19,27 +19,27 @@ let name = await conn.getName(m.sender)
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => imagen1[1]) 
 let teksbio = `
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
-*wa.me/51959609590*
+𝑴𝒂𝒌𝒂𝒏𝒂𝒌𝒚𝑩𝒐𝒕-𝙈𝘿 💖
+*wa.me/51986206184*
 
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 *2* 💖🐈
-*Wa.me/17196291679*
+𝑴𝒂𝒌𝒂𝒏𝒂𝒌𝒚𝑩𝒐𝒕-𝙈𝘿 *2* 💖
+*Wa.me/51986206184*
 
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 *3* 💖🐈
-*Wa.me/19854128068*
+𝑴𝒂𝒌𝒂𝒏𝒂𝒌𝒚𝑩𝒐𝒕-𝙈𝘿 *3* 💖
+*Wa.me/51986206184*
 
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 *4* 💖🐈
-*Wa.me/525536981575*
+𝑴𝒂𝒌𝒂𝒏𝒂𝒌𝒚𝑩𝒐𝒕-𝙈𝘿 *4* 💖
+*Wa.me/51986206184*
 *---------------------*
 
-*CENTER GATABOT*
-*centergatabot@gmail.com*
+*CENTER MAKANAKYBOT*
+*botmakanaky@gmail.com*
 
-𝙂𝘼𝙏𝘼 𝘿𝙄𝙊𝙎 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
+𝘼𝘿𝙍𝙄𝘼𝙉𝙊 𝙎𝘼𝙉𝘾𝙃𝙀𝙕 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
 *${asistencia}*
 
-*Sr. Pablo* - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
-*Wa.me/51993042301*
+*Sr. Adriano* - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
+*Wa.me/51986206184*
 `
   let teks = ' '
 const sections = [
@@ -79,7 +79,7 @@ const listMessage = {
       const count = args[1] && args[1].length > 0 ? Math.min(99999999, Math.max(parseInt(args[1]), 1)) : !args[1] || args.length < 3 ? 1 : Math.min(1, count)
         switch (type) {
           case 'nomor':
-          conn.reply(m.chat, "Nombre del bot : GataBot-MD 🐈", m, { contextInfo: { mentionedJid: [nowner] }})
+          conn.reply(m.chat, "Nombre del bot : MakanakyBot-MD 🐈", m, { contextInfo: { mentionedJid: [nowner] }})
             break
             case 'bio':
 	    conn.sendButton(m.chat, teksbio, insta, ppown, [`⋮☰ Menu`, `.menu`], m)
