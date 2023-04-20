@@ -109,13 +109,13 @@ if (c == emojis.length) c = 0;
 }
 let end;
 if (a == b && b == c) {
-end = `✨ *QUE PRO!! HAS GANADO +${apuesta + apuesta} GataCoins*\n\n🥳 *COOL!! YOU JUST WON +${apuesta + apuesta} GataCoins*`
+end = `✨ *QUE PRO!! HAS GANADO +${apuesta + apuesta} MakanakyCoins*\n\n🥳 *COOL!! YOU JUST WON +${apuesta + apuesta} MakanakyCoins*`
 users.money += apuesta
 } else if (a == b || a == c || b == c) {
-end = `🙀 *CASI!!, VUELVA A INTENTAR*\n*BONO DE +30 GataCoins*\n\n😯 *ALMOST!!, TRY AGAIN*\n*BONDS OF +30 GataCoins*`
+end = `🙀 *CASI!!, VUELVA A INTENTAR*\n*BONO DE +30 MakanakyCoins*\n\n😯 *ALMOST!!, TRY AGAIN*\n*BONDS OF +30 MakanakyCoins*`
 users.money += 30
 } else {
-end = `😿 *HA PERDIDO!! ❌ -${apuesta} GataCoins*\n\n*HAS LOST!! ❌ -${apuesta} GataCoins*`
+end = `😿 *HA PERDIDO!! ❌ -${apuesta} MakanakyCoins*\n\n*HAS LOST!! ❌ -${apuesta} MakanakyCoins*`
 users.money -= apuesta
 }
 //users.lastslot = new Date * 1
