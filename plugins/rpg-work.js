@@ -39,7 +39,7 @@ return list[Math.floor(list.length * Math.random())]
 }
 
 global.work = ["Trabajas como cortador de galletas y ganas", "Trabaja para una empresa militar privada, ganando", "Organiza un evento de cata de vinos y obtiene",
- "Moderaste el grupo cuando *GATADIOS* no estaba, el pago fue",
+ "Moderaste el grupo cuando *ADRIANOSANCHEZ* no estaba, el pago fue",
  "iba caminando por la calle y que encuentra con",
  "ayudarte con el grupo mientras los admin no estaba el pago fue",
  "Te secuestran y te llevan a un coliseo subterrÃ¡neo donde luchaste contra monstruos con personas que nunca antes habÃ­as conocido. Ganas", "Limpias la chimenea y encuentras", 
